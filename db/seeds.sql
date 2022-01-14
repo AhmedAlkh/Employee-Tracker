@@ -18,19 +18,12 @@ VALUES
     ('Legal Team Lead', 250000, 4),     /* role_id 6 */
     ('Lawyer', 190000, 4);              /* role_id 7 */
 
-INSERT INTO managers (first_name, last_name)
-VALUES
-    ('John', 'Doe'),             /* manager_id 1 */
-    ('Ashley', 'Rodriguez'),     /* manager_id 2 */
-    ('Kunal', 'Singh'),          /* manager_id 3 */
-    ('Sarah', 'Lourd');          /* manager_id 4 */
-
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
     ('Mike', 'Chan', 1, 1),
-    ('Ashley', 'Rodriguez', 2),
+    ('Ashley', 'Rodriguez', 2, null),
     ('Kevin', 'Tupik', 3, 2),
-    ('Kunal', 'Singh', 4),
+    ('Kunal', 'Singh', 4, null),
     ('Malia', 'Brown', 5, 3),
-    ('Sarah', 'Lourd', 6),
+    ('Sarah', 'Lourd', 6, null),
     ('Tom', 'Allen', 7, 4);
