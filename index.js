@@ -127,7 +127,7 @@ function add_department() {
     if (err) throw err;
     console.log('New department added to database!');
 
-    db_connection.query(`SELECT * FROM departments`, (err, result) => {
+    db_connection.query(`SELECT departments.id, departments.name AS Department FROM departments`, (err, result) => {
         if (err) {
             res.status(500).json({ error: err.message })
             return;
