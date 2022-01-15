@@ -1,24 +1,25 @@
-# Employee-Tracker
+  # Employee Tracker
 
-Invoke with node index.js
+  ## Description
+  The Employee Tracker app allows buisness owners to view and manage the departments, roles, and employees in their company.
 
-A list of options is presented
+  ## Table of contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Questions](#questions)
 
-NOTICE! The option that is selected will be logged for the user to see that their selection was succesfull.
-I have also added validation so that the user can leave the field empty when being prompted to enter info!
+  ## Walkthrough video
+  https://drive.google.com/file/d/1aLpswLlPTbk1m-KgVryH-4L9Bpkzcn1m/view
+  
+  ## Installation
+  Clone the repository to your deskop and run the app through command terminal.
 
-View all departments displays department id and name.
+  ## Usage
+  In the terminal, invoke the app with "node index.js". The user will be presented with a list of options to choose from. Some options allow you to view information while others allow you to manage information. While the user is managing information, they will be prompted to enter their input. The information is returned in a table format.
+  
+  ## Questions
 
-View all roles displays role id, job title, salary and department id.
+  GitHub: https://github.com/AhmedAlkh
 
-View all employees displays employee id, first name, last name, job title, department, salary and manager.
-
-Add a department prompts user to enter new department name then displays a table with all department id and names.
-
-Add a role prompts user to ented the title of the new role, the salary and the department for this role. An updated table is displayed.
-
-Add an employee prompts user to enter the new employee's first name, last name, role id and manager id. An updated table is displayed.
-
-Update an employee role prompts user to enter employees first name and new role id. 
-If a non existing employee name is entered, User is returned to the list of options.
-
+  For any additional questions or information, please contact me.
+  [alkhatib_ahmed1995@hotmail.com](mailto:alkhatib_ahmed1995@hotmail.com)
