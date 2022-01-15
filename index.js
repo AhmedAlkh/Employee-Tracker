@@ -19,7 +19,8 @@ function initialize() {
             'Add a department',
             'Add a role',
             'Add an employee',
-            'Update an employee role'
+            'Update an employee role',
+            'Exit'
         ]
     })
     .then(function ({ options }) {
@@ -50,6 +51,10 @@ function initialize() {
 
             case 'Update an employee role':
                 update_role();
+                break;
+
+            case 'Exit':
+                exit_app();
                 break;
         }
     });
@@ -310,4 +315,9 @@ function update_role() {
             });
         })
     });
+};
+
+function exit_app() {
+    console.log('Thank you for using employee tracker!');
+    db_connection.end();
 };
